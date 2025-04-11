@@ -1,0 +1,248 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(18, 16, 16);
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#all{
+    border: solid white;
+    border-radius: 45px;
+    display:block;
+    width: 305px;
+    height: 560px;
+    background-color: black;    
+}
+#clear{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(156, 152, 152);
+
+}
+#back{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(156, 152, 152);
+}
+#rem{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(156, 152, 152);
+    
+}
+#div{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background-color: darkorange;
+}
+#num_7{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#num_8{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#num_9{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#mul{
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background-color: darkorange;
+}
+#num_4{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#num_5{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#num_6{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#sub{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background-color: darkorange;
+}
+#num_1{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#num_2{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#num_3{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#add{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background-color: darkorange;
+}
+#num_0{
+    font-size: 25px;
+    width: 105px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white;
+}
+#num{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(66, 65, 65);
+    border: none;
+    color: white; 
+}
+#calculate{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    background-color: darkorange;
+}
+#row_6{
+    position: relative;
+    top: 37%;
+    left: 35%;
+    color: white;
+    font-size: 20px;
+    background-color:transparent;
+}
+#row_5{
+    position: relative;
+    top: 37%;
+    left: 15%;
+    background-color:transparent;
+}
+#row_4{
+    position: relative;
+    top: 36%;
+    left: 15%;
+    background-color:transparent;
+}
+#row_3{
+    position: relative;
+    top: 35%;
+    left: 15%;
+    background-color:transparent;
+}
+#row_2{
+    position:relative;
+    top: 34%;
+    left: 15%;
+    background-color:transparent;
+}
+#row_1{
+    position: relative;
+    top : 33%; 
+    left: 15%;
+    background-color:transparent;
+
+}
+#result{
+    text-align: right;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 40px;
+    width: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    border-radius: 15px;
+    position: relative;
+    left: 2%;
+    top : 32%;
+}
